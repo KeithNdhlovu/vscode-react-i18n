@@ -1,3 +1,3 @@
 [submodule "src/core"]
 	path = src/core
-	url = git@github.com:think2011/vscode-i18n-core.git
+	url = https://github.com/KeithNdhlovu/vscode-i18n-core.git

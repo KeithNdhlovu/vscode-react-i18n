@@ -1,7 +1,7 @@
 {
   "name": "react-i18n",
   "displayName": "react i18n",
-  "description": "🔖 这个插件能够帮到你方便浏览和编写 react i18n",
+  "description": "🔖 This plugin can help you browse and write easily react i18n",
   "version": "1.0.0",
   "publisher": "think2011",
   "scripts": {
@@ -39,9 +39,9 @@
   "icon": "static/logo.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/think2011/vscode-react-i18n.git"
+    "url": "https://github.com/KeithNdhlovu/vscode-react-i18n.git"
   },
-  "homepage": "https://github.com/think2011/vscode-react-i18n",
+  "homepage": "https://github.com/KeithNdhlovu/vscode-react-i18n",
   "main": "./out/extension",
   "contributes": {
     "menus": {
@@ -76,7 +76,7 @@
     "commands": [
       {
         "command": "react-i18n.transView",
-        "title": "翻译当前文件的i18n",
+        "title": "Translate the i18n of the current file",
         "icon": {
           "light": "./static/logo.png",
           "dark": "./static/logo.png"
@@ -84,11 +84,11 @@
       },
       {
         "command": "react-i18n.autoInitPath",
-        "title": "react-i18n: 自动配置路径"
+        "title": "react-i18n: Automatic configuration path"
       },
       {
         "command": "react-i18n.manualInitPath",
-        "title": "react-i18n: 手动配置路径"
+        "title": "react-i18n: manually configure the path"
       }
     ],
     "configuration": {
@@ -97,12 +97,12 @@
       "properties": {
         "react-i18n.i18nPaths": {
           "type": "string",
-          "description": "翻译文件的目录（相对于项目根目录）"
+          "description": "The directory of the translation file (relative to the project root directory)"
         },
         "react-i18n.sourceLocale": {
           "type": "string",
-          "default": "zh-CN",
-          "description": "主要语言"
+          "default": "en",
+          "description": "Main language"
         }
       }
     }

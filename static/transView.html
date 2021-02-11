@@ -156,11 +156,11 @@
         <h2>
           <span>🔖 {{ shortFileName }}</span>
           <button @click="batchTrans()">
-            {{working ? '翻译中' : `批量根据${sourceLocale}翻译` }}
+            {{working ? 'Translating' : `Batch translation based on ${sourceLocale}` }}
           </button>
         </h2>
-        <small v-if="initd">当前文件共有{{ keyTotal }}条文案</small>
-        <small v-else>正在分析..</small>
+        <small v-if="initd">There are {{ keyTotal }} in the current file</small>
+        <small v-else>analysing..</small>
       </div>
 
       <ul class="i18n-table">
@@ -168,7 +168,7 @@
           <h4>
             <span>{{ `#${index+1} ${key}` }}</span>
             <button @click="trans(key, transItem)" :disabled="loadingMap[key]">
-              {{loadingMap[key] ? `翻译中..` : `根据${sourceLocale}翻译`}}
+              {{loadingMap[key] ? `Translating...`: `Translate according to ${sourceLocale}`}}
             </button>
           </h4>
 
@@ -212,7 +212,7 @@
             loadingMap: {},
             transTasks: [],
             emitTransTimer: null,
-            sourceLocale: 'zh-CN'
+            sourceLocale: 'en'
           }
         },
         computed: {

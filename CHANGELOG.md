@@ -1,16 +1,16 @@
-## [1.0.0] - 2019-11-21
+## [1.0.0]-2019-11-21
 
-- 🤦 fix: utils路径在大小写敏感的系统上引用出错，特别是使用 vscode remote 开发的时候
+- 🤦 fix: The utils path is incorrectly referenced on a case-sensitive system, especially when developing with vscode remote
 
-## [0.2.0] - 2019-09-12
+## [0.2.0]-2019-09-12
 
-- 🎉 如果没有命名空间，默认命名空间为 common
+- 🎉 If there is no namespace, the default namespace is common
 
-## [0.1.2] - 2019-08-31
+## [0.1.2]-2019-08-31
 
-- 🎉 yaml 支持
+- 🎉 yaml support
 
 
-## [0.0.1] - 2019-08-28
+## [0.0.1]-2019-08-28
 
-- 🐣 第一版本
+- 🐣 First version
